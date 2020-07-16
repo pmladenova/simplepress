@@ -26,11 +26,14 @@ Combined JS files for better page speed.
 More info -> https://inter-reklama.com/simplepress-theme.html
 
 = Recommended plugin for this theme: WP-PostViews =
+
 Link -> https://wordpress.org/plugins/wp-postviews/
 You need to install and activate the plugin.
+
 The code is implemented and will only be active if the plugin is activated.
 
 = How To Get Download Function =
+
 Source -> https://remicorson.com/easy-download-media-counter-free/
 
 Shortcodes:
