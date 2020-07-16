@@ -1,4 +1,5 @@
 === SimplePress ===
+
 Stable tag: 1.0.0
 SimplePress ClassicPress theme, Copyright (C) 2013 Petya Mladenova
 SimplePress ClassicPress theme is licensed under the GNU GPL v3.0
