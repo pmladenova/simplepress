@@ -32,8 +32,11 @@ The code is implemented and will only be active if the plugin is activated.
 
 = How To Get Download Function =
 Source -> https://remicorson.com/easy-download-media-counter-free/
+
 Shortcodes:
+
 [dwn id="xxx"]Download Media Now![/dwn] 
+
 [dwn_show id="xxx"]
 
 == Changelog ==
@@ -43,10 +46,15 @@ Shortcodes:
 
 == Credits ==
 * Underscores (_s) - Base Theme
+
 URL: https://underscores.me/
+
 License: GNU GPL
+
 Copyright: Automattic, automattic.com
+
 License URI: LICENSE
 
 == FOOTER LINK ==
+
 You can remove the footer link if you like but we would appreciate your support for our work by retaining it.
