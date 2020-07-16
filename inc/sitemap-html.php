@@ -7,6 +7,7 @@
  
 /**
  * HIERARHICAL BLOG MAP shortcode [htmlmap exclude="0,1573" showpages]
+ * Credits: https://github.com/wppuzzle/hierarchical-html-sitemap
  */
 function simplepress_shortcode_htmlmap( $atts , $content = null ) {
 	$hidecloud = ( ''!=$atts && in_array('hidecloud', $atts) ) ? 1 : 0 ;
