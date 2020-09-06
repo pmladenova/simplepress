@@ -132,15 +132,31 @@ add_filter( 'get_custom_logo', 'sp_custom_logo' );
 
 
 /**
- * Sets the post excerpt length to 40 words.
+ * Sets the post excerpt length to 33 words.
  *
  * To override this length in a child theme, remove the filter and add your own
  * function tied to the excerpt_length filter hook.
  */
 function simplepress_excerpt_length( $length ) {
-	return 40;
+	return 33;
 }
 add_filter( 'excerpt_length', 'simplepress_excerpt_length' );
+
+/**
+ * Prevent Page Scroll When Clicking the More Link
+ */
+function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
+
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more( $more ) {
+    global $post;
+	return '<a class="more-link" href="'. get_permalink($post->ID) . '">Read the full article</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 /**
  * Register widget area
